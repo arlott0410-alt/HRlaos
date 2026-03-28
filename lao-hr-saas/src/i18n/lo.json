@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "dashboard": "ແຜງຄວບຄຸມ",
+    "employees": "ພະນັກງານ",
+    "attendance": "ເຂົ້າວຽກ",
+    "leave": "ລາພັກ",
+    "payroll": "ເງິນເດືອນ",
+    "reports": "ລາຍງານ",
+    "settings": "ຕັ້ງຄ່າ"
+  },
+  "common": {
+    "save": "ບັນທຶກ",
+    "cancel": "ຍົກເລີກ",
+    "delete": "ລຶບ",
+    "edit": "ແກ້ໄຂ",
+    "add": "ເພີ່ມ",
+    "search": "ຄົ້ນຫາ",
+    "filter": "ກອງ",
+    "loading": "ກຳລັງໂຫຼດ…",
+    "error": "ເກີດຂໍ້ຜິດພາດ",
+    "success": "ສຳເລັດ",
+    "back": "ກັບຄືນ",
+    "next": "ຕໍ່ໄປ",
+    "yes": "ແມ່ນ",
+    "no": "ບໍ່",
+    "close": "ປິດ",
+    "noData": "ບໍ່ມີຂໍ້ມູນ",
+    "viewAll": "ເບິ່ງທັງໝົດ",
+    "logout": "ອອກຈາກລະບົບ"
+  },
+  "employee": {
+    "title": "ພະນັກງານ",
+    "list": "ລາຍຊື່ພະນັກງານ",
+    "new": "ເພີ່ມພະນັກງານ",
+    "detail": "ລາຍລະອຽດພະນັກງານ",
+    "first_name": "ຊື່",
+    "last_name": "ນາມສະກຸນ",
+    "full_name": "ຊື່ ແລະ ນາມສະກຸນ",
+    "date_of_birth": "ວັນເດືອນປີເກີດ",
+    "gender": "ເພດ",
+    "gender_male": "ຊາຍ",
+    "gender_female": "ຍິງ",
+    "gender_other": "ອື່ນໆ",
+    "province": "ແຂວງ",
+    "district": "ເມືອງ",
+    "village": "ບ້ານ",
+    "address_line": "ທີ່ຢູ່ເພີ່ມເຕີມ",
+    "email": "ອີເມວ",
+    "phone": "ເບີໂທ",
+    "employee_code": "ລະຫັດພະນັກງານ",
+    "department": "ພະແນກ",
+    "position": "ຕຳແໜ່ງ",
+    "hired_on": "ວັນທີ່ເລີ່ມວຽກ",
+    "status": "ສະຖານະ",
+    "status_active": "ກຳລັງເຮັດວຽກ",
+    "status_on_leave": "ລາພັກ",
+    "status_terminated": "ພັກງານແລ້ວ"
+  },
+  "attendance": {
+    "title": "ເວລາເຂົ້າວຽກ",
+    "clock_in": "ເຂົ້າວຽກ",
+    "clock_out": "ອອກວຽກ",
+    "present": "ມາວຽກ",
+    "absent": "ຂາດ",
+    "late": "ມາຊ້າ",
+    "overtime": "ເຮັດວຽກເກີນເວລາ",
+    "work_date": "ວັນທີ່ເຮັດວຽກ"
+  },
+  "leave": {
+    "title": "ລາພັກ",
+    "annual_leave": "ລາພັກປະຈຳປີ",
+    "sick_leave": "ລາປ່ວຍ",
+    "maternity_leave": "ລາຄອດ",
+    "pending": "ລໍຖ້າອະນຸມັດ",
+    "approved": "ອະນຸມັດແລ້ວ",
+    "rejected": "ບໍ່ອະນຸມັດ",
+    "request": "ຄຳຂໍລາພັກ",
+    "balance": "ຍອດວັນລາ"
+  },
+  "payroll": {
+    "title": "ເງິນເດືອນ",
+    "salary": "ເງິນເດືອນ",
+    "tax": "ພາສີ",
+    "nssf": "ປະກັນສັງຄົມ",
+    "net_pay": "ຮັບສຸດທິ",
+    "gross_pay": "ລາຍຮັບລວມ",
+    "payslip": "ສະລິບເງິນເດືອນ",
+    "period": "ຮອບຈ່າຍ"
+  },
+  "dashboard": {
+    "welcome": "ຍິນດີຕ້ອນຮັບ, {{name}}",
+    "stat_employees": "ພະນັກງານທັງໝົດ",
+    "stat_present": "ມາວຽກວັນນີ້",
+    "stat_leave_pending": "ລາພັກລໍຖ້າ",
+    "stat_payroll_month": "ເງິນເດືອນເດືອນນີ້",
+    "quick_actions": "ການດຳເນີນງານດ່ວນ",
+    "add_employee": "ເພີ່ມພະນັກງານ",
+    "approve_leave": "ອະນຸມັດລາພັກ",
+    "recent_activity": "ກິດຈະກຳຫຼ້າສຸດ",
+    "chart_placeholder": "ກຣາຟ (ຈະເຊື່ອມຂໍ້ມູນຈິງພາຍຫຼັງ)",
+    "trend_headcount": "ຈຳນວນພະນັກງານ",
+    "trend_attendance": "ສະຖິຕິເຂົ້າວຽກ"
+  },
+  "login": {
+    "title": "ເຂົ້າລະບົບ",
+    "subtitle": "ໃສ່ອີເມວ ແລະ ລະຫັດຜ່ານຂອງທ່ານ",
+    "email": "ອີເມວ",
+    "password": "ລະຫັດຜ່ານ",
+    "submit": "ເຂົ້າລະບົບ",
+    "error_invalid": "ອີເມລ ຫຼື ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ",
+    "company_for": "ອົງກອນ",
+    "dev_slug_hint": "ໃນ localhost ໃຫ້ຕັ້ງ VITE_DEV_TENANT_SLUG ໃນ .env ໃຫ້ກົງກັບ subdomain ຂອງ organizations ໃນ Supabase."
+  },
+  "layout": {
+    "notifications": "ແຈ້ງເຕືອນ",
+    "language": "ພາສາ",
+    "menu_open": "ເປີດເມນູ",
+    "menu_close": "ປິດເມນູ",
+    "user_menu": "ບັນຊີຜູ້ໃຊ້"
+  },
+  "reports": {
+    "title": "ລາຍງານ",
+    "subtitle": "ສະຫຼຸບ ແລະ ສົ່ງອອກຂໍ້ມູນ"
+  },
+  "settings": {
+    "title": "ຕັ້ງຄ່າ",
+    "subtitle": "ການຕັ້ງຄ່າລະບົບ ແລະ ບັນຊີ"
+  },
+  "employees_page": {
+    "title": "ພະນັກງານ",
+    "empty": "ຍັງບໍ່ມີພະນັກງານ"
+  },
+  "employee_form": {
+    "title_new": "ເພີ່ມພະນັກງານ",
+    "title_edit": "ແກ້ໄຂພະນັກງານ"
+  },
+  "employee_detail": {
+    "title": "ລາຍລະອຽດ"
+  },
+  "tenant": {
+    "missing": "ບໍ່ພົບອົງກອນ ຫຼື ໂດເມນບໍ່ຖືກຕ້ອງ",
+    "loading": "ກຳລັງໂຫຼດອົງກອນ…"
+  }
+}

@@ -6,7 +6,4 @@
   html {
     @apply antialiased;
   }
-  body {
-    @apply m-0 min-h-svh bg-white text-slate-900;
-  }
 }

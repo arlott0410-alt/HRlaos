@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "dashboard": "แดชบอร์ด",
+    "employees": "พนักงาน",
+    "attendance": "เวลาเข้างาน",
+    "leave": "การลา",
+    "payroll": "เงินเดือน",
+    "reports": "รายงาน",
+    "settings": "การตั้งค่า"
+  },
+  "common": {
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "delete": "ลบ",
+    "edit": "แก้ไข",
+    "add": "เพิ่ม",
+    "search": "ค้นหา",
+    "filter": "กรอง",
+    "loading": "กำลังโหลด…",
+    "error": "เกิดข้อผิดพลาด",
+    "success": "สำเร็จ",
+    "back": "กลับ",
+    "next": "ถัดไป",
+    "yes": "ใช่",
+    "no": "ไม่",
+    "close": "ปิด",
+    "noData": "ไม่มีข้อมูล",
+    "viewAll": "ดูทั้งหมด",
+    "logout": "ออกจากระบบ"
+  },
+  "employee": {
+    "title": "พนักงาน",
+    "list": "รายชื่อพนักงาน",
+    "new": "เพิ่มพนักงาน",
+    "detail": "รายละเอียดพนักงาน",
+    "first_name": "ชื่อ",
+    "last_name": "นามสกุล",
+    "full_name": "ชื่อเต็ม",
+    "date_of_birth": "วันเกิด",
+    "gender": "เพศ",
+    "gender_male": "ชาย",
+    "gender_female": "หญิง",
+    "gender_other": "อื่นๆ",
+    "province": "จังหวัด",
+    "district": "อำเภอ",
+    "village": "หมู่บ้าน",
+    "address_line": "ที่อยู่เพิ่มเติม",
+    "email": "อีเมล",
+    "phone": "โทรศัพท์",
+    "employee_code": "รหัสพนักงาน",
+    "department": "แผนก",
+    "position": "ตำแหน่ง",
+    "hired_on": "วันเริ่มงาน",
+    "status": "สถานะ",
+    "status_active": "ทำงาน",
+    "status_on_leave": "ลา",
+    "status_terminated": "พ้นสภาพ"
+  },
+  "attendance": {
+    "title": "เวลาเข้างาน",
+    "clock_in": "ลงเวลาเข้า",
+    "clock_out": "ลงเวลาออก",
+    "present": "มาทำงาน",
+    "absent": "ขาด",
+    "late": "มาสาย",
+    "overtime": "ล่วงเวลา",
+    "work_date": "วันทำงาน"
+  },
+  "leave": {
+    "title": "การลา",
+    "annual_leave": "ลาประจำปี",
+    "sick_leave": "ลาป่วย",
+    "maternity_leave": "ลาคลอด",
+    "pending": "รออนุมัติ",
+    "approved": "อนุมัติแล้ว",
+    "rejected": "ไม่อนุมัติ",
+    "request": "คำขอลา",
+    "balance": "ยอดวันลา"
+  },
+  "payroll": {
+    "title": "เงินเดือน",
+    "salary": "เงินเดือน",
+    "tax": "ภาษี",
+    "nssf": "ประกันสังคม",
+    "net_pay": "รับสุทธิ",
+    "gross_pay": "รายได้รวม",
+    "payslip": "สลิปเงินเดือน",
+    "period": "รอบจ่าย"
+  },
+  "dashboard": {
+    "welcome": "ยินดีต้อนรับ, {{name}}",
+    "stat_employees": "พนักงานทั้งหมด",
+    "stat_present": "มาทำงานวันนี้",
+    "stat_leave_pending": "ลารออนุมัติ",
+    "stat_payroll_month": "เงินเดือนเดือนนี้",
+    "quick_actions": "การดำเนินการด่วน",
+    "add_employee": "เพิ่มพนักงาน",
+    "approve_leave": "อนุมัติการลา",
+    "recent_activity": "กิจกรรมล่าสุด",
+    "chart_placeholder": "กราฟ (จะเชื่อมข้อมูลจริงภายหลัง)",
+    "trend_headcount": "จำนวนพนักงาน",
+    "trend_attendance": "แนวโน้มการเข้างาน"
+  },
+  "login": {
+    "title": "เข้าสู่ระบบ",
+    "subtitle": "กรอกอีเมลและรหัสผ่าน",
+    "email": "อีเมล",
+    "password": "รหัสผ่าน",
+    "submit": "เข้าสู่ระบบ",
+    "error_invalid": "อีเมลหรือรหัสผ่านไม่ถูกต้อง",
+    "company_for": "องค์กร",
+    "dev_slug_hint": "บน localhost ให้ตั้ง VITE_DEV_TENANT_SLUG ใน .env ให้ตรงกับ subdomain ในตาราง organizations"
+  },
+  "layout": {
+    "notifications": "การแจ้งเตือน",
+    "language": "ภาษา",
+    "menu_open": "เปิดเมนู",
+    "menu_close": "ปิดเมนู",
+    "user_menu": "บัญชีผู้ใช้"
+  },
+  "reports": {
+    "title": "รายงาน",
+    "subtitle": "สรุปและส่งออกข้อมูล"
+  },
+  "settings": {
+    "title": "การตั้งค่า",
+    "subtitle": "การตั้งค่าระบบและบัญชี"
+  },
+  "employees_page": {
+    "title": "พนักงาน",
+    "empty": "ยังไม่มีพนักงาน"
+  },
+  "employee_form": {
+    "title_new": "เพิ่มพนักงาน",
+    "title_edit": "แก้ไขพนักงาน"
+  },
+  "employee_detail": {
+    "title": "รายละเอียด"
+  },
+  "tenant": {
+    "missing": "ไม่พบองค์กรหรือโดเมนไม่ถูกต้อง",
+    "loading": "กำลังโหลดองค์กร…"
+  }
+}
