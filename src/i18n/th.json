@@ -1,0 +1,66 @@
+{
+  "app": {
+    "name": "HR ລາວ",
+    "tagline": "ระบบบริหารพนักงานสำหรับองค์กรในลาว"
+  },
+  "nav": {
+    "dashboard": "แดชบอร์ด",
+    "settings": "การตั้งค่า",
+    "employee": "พนักงาน",
+    "attendance": "เวลาเข้างาน",
+    "payroll": "เงินเดือน",
+    "leave": "การลา",
+    "reports": "รายงาน"
+  },
+  "login": {
+    "title": "เข้าสู่ระบบ",
+    "subtitle": "ใช้อีเมลและรหัสผ่านของคุณ",
+    "email": "อีเมล",
+    "password": "รหัสผ่าน",
+    "submit": "เข้าสู่ระบบ",
+    "error": "เข้าสู่ระบบไม่สำเร็จ"
+  },
+  "tenant": {
+    "loading": "กำลังโหลดองค์กร…",
+    "missing": "ไม่พบโดเมนย่อยขององค์กร ใช้ลิงก์ที่มีชื่อบริษัท หรือตั้ง VITE_DEV_TENANT_SLUG ตอนพัฒนา",
+    "notFound": "ไม่พบองค์กรสำหรับโดเมนนี้",
+    "slug": "องค์กร",
+    "configureSupabase": "ตรวจสอบ VITE_SUPABASE_* ใน .env และ migration ที่รันแล้ว"
+  },
+  "pwa": {
+    "install": "ติดตั้งแอป",
+    "installing": "กำลังติดตั้ง…",
+    "installed": "ติดตั้งแล้ว",
+    "iosTitle": "เพิ่มไปที่หน้าจอหลัก",
+    "iosBody": "ใน Safari แตะแชร์ แล้วเลือกเพิ่มไปที่หน้าจอหลัก",
+    "dismiss": "ปิด"
+  },
+  "common": {
+    "logout": "ออกจากระบบ",
+    "language": "ภาษา",
+    "back": "กลับ"
+  },
+  "features": {
+    "employeeTitle": "พนักงาน",
+    "employeeBody": "ข้อมูลพนักงานและสัญญาจ้าง",
+    "attendanceTitle": "เวลาเข้างาน",
+    "attendanceBody": "บันทึกเวลาเข้า-ออก",
+    "payrollTitle": "เงินเดือน",
+    "payrollBody": "รอบจ่ายและสลิปเงินเดือน",
+    "leaveTitle": "การลา",
+    "leaveBody": "คำขอลาและการอนุมัติ",
+    "reportsTitle": "รายงาน",
+    "reportsBody": "สรุปข้อมูลบุคลากร"
+  },
+  "dashboard": {
+    "welcome": "ยินดีต้อนรับ",
+    "quickLinks": "ลิงก์ด่วน",
+    "noEmployees": "ยังไม่มีพนักงาน",
+    "employeeListHint": "รายการจากตาราง employees (RLS)"
+  },
+  "settings": {
+    "title": "การตั้งค่า",
+    "account": "บัญชี",
+    "tenantId": "รหัสองค์กร (org)"
+  }
+}

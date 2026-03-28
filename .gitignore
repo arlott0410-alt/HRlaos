@@ -1,0 +1,9 @@
+node_modules
+dist
+*.local
+.env
+.env.*.local
+.dev.vars
+.DS_Store
+dev-dist
+lao-hr-saas/dist

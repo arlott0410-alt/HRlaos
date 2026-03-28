@@ -1,0 +1,23 @@
+# HR Laos — edge gateway (Hono)
+# Sensitive values: use `wrangler secret put <NAME>` (not committed).
+# Local: copy .dev.vars.example → .dev.vars
+
+name = "hr-laos-gateway"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+
+# Single KV: keys prefixed with rl: (rate limit) and tc: (tenant config)
+[[kv_namespaces]]
+binding = "HR_LAOS_KV"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+preview_id = "REPLACE_WITH_PREVIEW_KV_ID"
+
+# Non-secret URL is fine in [vars]; you can use `wrangler secret put SUPABASE_URL` instead.
+[vars]
+SUPABASE_URL = "https://YOUR_PROJECT_REF.supabase.co"
+
+# Secrets (never commit; use CLI):
+#   wrangler secret put SUPABASE_JWT_SECRET
+#   wrangler secret put SUPABASE_SERVICE_ROLE_KEY
+#   wrangler secret put SUPABASE_ANON_KEY
+#   wrangler secret put WEBHOOK_SECRET

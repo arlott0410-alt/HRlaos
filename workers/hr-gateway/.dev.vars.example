@@ -1,0 +1,6 @@
+# Local `wrangler dev` — do not commit .dev.vars
+SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
+SUPABASE_JWT_SECRET=your-jwt-secret-from-supabase-dashboard
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+SUPABASE_ANON_KEY=your-anon-key
+WEBHOOK_SECRET=optional-webhook-bearer

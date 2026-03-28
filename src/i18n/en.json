@@ -1,0 +1,66 @@
+{
+  "app": {
+    "name": "HR Laos",
+    "tagline": "HR operations for companies in Laos"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "employee": "Employees",
+    "attendance": "Attendance",
+    "payroll": "Payroll",
+    "leave": "Leave",
+    "reports": "Reports"
+  },
+  "login": {
+    "title": "Sign in",
+    "subtitle": "Use your work email and password",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in",
+    "error": "Sign in failed"
+  },
+  "tenant": {
+    "loading": "Loading organization…",
+    "missing": "No tenant subdomain detected. Use a company subdomain URL or set VITE_DEV_TENANT_SLUG for local dev.",
+    "notFound": "No organization matches this domain.",
+    "slug": "Organization",
+    "configureSupabase": "Check VITE_SUPABASE_* in .env and applied migrations (including public org lookup)."
+  },
+  "pwa": {
+    "install": "Install app",
+    "installing": "Installing…",
+    "installed": "Installed",
+    "iosTitle": "Add to Home Screen",
+    "iosBody": "In Safari, tap Share, then Add to Home Screen.",
+    "dismiss": "Dismiss"
+  },
+  "common": {
+    "logout": "Log out",
+    "language": "Language",
+    "back": "Back"
+  },
+  "features": {
+    "employeeTitle": "Employees",
+    "employeeBody": "Employee records and employment contracts.",
+    "attendanceTitle": "Attendance",
+    "attendanceBody": "Clock in and out tracking.",
+    "payrollTitle": "Payroll",
+    "payrollBody": "Pay runs and payslips.",
+    "leaveTitle": "Leave",
+    "leaveBody": "Leave requests and approvals.",
+    "reportsTitle": "Reports",
+    "reportsBody": "Workforce summaries and exports."
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "quickLinks": "Quick links",
+    "noEmployees": "No employees yet.",
+    "employeeListHint": "Rows from employees table (RLS)."
+  },
+  "settings": {
+    "title": "Settings",
+    "account": "Account",
+    "tenantId": "Organization ID (org)"
+  }
+}

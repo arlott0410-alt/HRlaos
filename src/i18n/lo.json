@@ -1,0 +1,66 @@
+{
+  "app": {
+    "name": "HR ລາວ",
+    "tagline": "ລະບົບບໍລິຫານພະນັກງານສຳລັບບໍລິສັດ"
+  },
+  "nav": {
+    "dashboard": "ແຜງຄວບຄຸມ",
+    "settings": "ຕັ້ງຄ່າ",
+    "employee": "ພະນັກງານ",
+    "attendance": "ເຂົ້າວຽກ",
+    "payroll": "ເງິນເດືອນ",
+    "leave": "ລາພັກ",
+    "reports": "ລາຍງານ"
+  },
+  "login": {
+    "title": "ເຂົ້າລະບົບ",
+    "subtitle": "ໃຊ້ອີເມວແລະລະຫັດຂອງທ່ານ",
+    "email": "ອີເມວ",
+    "password": "ລະຫັດຜ່ານ",
+    "submit": "ເຂົ້າລະບົບ",
+    "error": "ເຂົ້າລະບົບບໍ່ສຳເລັດ"
+  },
+  "tenant": {
+    "loading": "ກຳລັງໂຫຼດອົງກອນ…",
+    "missing": "ບໍ່ພົບໂດເມນອົງກອນ. ໃຊ້ລິ້ງທີ່ມີຊື່ບໍລິສັດ ຫຼື ຕັ້ງ VITE_DEV_TENANT_SLUG ໃນການພັດທະນາ.",
+    "notFound": "ບໍ່ພົບອົງກອນສຳລັບໂດເມນນີ້.",
+    "slug": "ອົງກອນ",
+    "configureSupabase": "ກວດເບິ່ງວ່າໄດ້ເຊື່ອມ Supabase ແລະ ລົງມິເກຣຊັນແລ້ວ."
+  },
+  "pwa": {
+    "install": "ຕິດຕັ້ງແອັບ",
+    "installing": "ກຳລັງຕິດຕັ້ງ…",
+    "installed": "ຕິດຕັ້ງແລ້ວ",
+    "iosTitle": "ເພີ່ມໃສ່ໜ້າຈໍຫຼັກ",
+    "iosBody": "ໃນ Safari ແຕະ ສ່ວນແບ່ງ ແລ້ວ ເພີ່ມໃສ່ໜ້າຈໍຫຼັກ.",
+    "dismiss": "ປິດ"
+  },
+  "common": {
+    "logout": "ອອກຈາກລະບົບ",
+    "language": "ພາສາ",
+    "back": "ກັບຄືນ"
+  },
+  "features": {
+    "employeeTitle": "ພະນັກງານ",
+    "employeeBody": "ຈັດການຂໍ້ມູນພະນັກງານ ແລະ ສັນຍາຈ້າງງານ.",
+    "attendanceTitle": "ເຂົ້າວຽກ",
+    "attendanceBody": "ບັນທຶກເວລາເຂົ້າ-ອອກ.",
+    "payrollTitle": "ເງິນເດືອນ",
+    "payrollBody": "ຄິດໄລ່ເງິນເດືອນແລະສວັດດີ.",
+    "leaveTitle": "ລາພັກ",
+    "leaveBody": "ຄຳຂໍລາພັກແລະການອະນຸມັດ.",
+    "reportsTitle": "ລາຍງານ",
+    "reportsBody": "ສະຫຼຸບຂໍ້ມູນບຸກຄະລາກອນ."
+  },
+  "dashboard": {
+    "welcome": "ຍິນດີຕ້ອນຮັບ",
+    "quickLinks": "ເມນູດ່ວນ",
+    "noEmployees": "ຍັງບໍ່ມີພະນັກງານ",
+    "employeeListHint": "ລາຍການຈາກຕາຕະລາງ employees (RLS)."
+  },
+  "settings": {
+    "title": "ຕັ້ງຄ່າ",
+    "account": "ບັນຊີ",
+    "tenantId": "ລະຫັດອົງກອນ (org)"
+  }
+}
